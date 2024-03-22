@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.truck{
+    height: 450px;
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    background-image: url(https://assets.seedprod.com/64h3vugqebb6kpwf.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.topic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.topic h1{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: rgb(0, 64, 73);
+
+}
+
+.topic p{
+    color: grey;
+    font-family: sans-serif;
+    margin: 30px 0;
+}
+.topic button{
+    background-color: rgb(0, 164, 175);
+    padding: 15px 36px;
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
